@@ -1,0 +1,148 @@
+/* 
+nav bg color: #26292e
+hero bg color: #e7718b
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.top {
+    background: #26292e;
+}
+
+nav {
+    background: #26292e;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+h1 {
+    color:#f4f4f6;
+    font-family: 'Euphoria Script', cursive;
+    float: left;
+}
+
+.nav-ul {
+    float: right;
+    color: white;
+    padding: 15px;
+}
+
+.nav-li {
+    display: inline; 
+}
+
+.clearfix {
+    clear: both;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.primary {
+    background: #e7718b;
+    padding: 25px 0px;
+}
+
+.hero {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.hero-container {
+    padding: 0px;
+}
+
+button {
+    background: black;
+    font: #f4f4f6;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.butt-2 {
+    margin-left: 10px;
+}
+
+.hero-img {
+   padding-left: 45px; 
+}
+
+.secondary {
+    border-bottom: 5px solid pink;
+    background: #f4f4f6;
+    padding: 45px 0px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background: #f4f4f6;
+}
+
+.main-col {
+    margin: 0 auto;
+    padding-right: 25px;
+    float: left;
+    width: calc(100% / 3);
+}
+
+.products {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.products-h3 {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.col-4 {
+    padding: 0px;
+}
+
+.cont-img {
+    margin-bottom: 60px;
+    border: 8px solid #bac1d1;
+    box-shadow: 0px 10px 4px #888888;
+}
+
+section {
+    margin-top: -37px;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.products-p {
+    font-size: 13px;
+    margin-bottom: 37px;
+    width: 294px;
+}
+.outer {
+    background: #26292e;
+}
+
+footer {
+    background: #26292e;
+    color: pink;
+    height: 39px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* my issues with this page:
+-i couldnt figure out how to get the icons in the top right corner and also in the footer.
+-also my "facebook, twitter, wifi" + my button all of a sudden turned blue as i was finishing up this page and would not go back to the original white color that they  had been previously dispaying to me.
+*/
